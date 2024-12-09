@@ -1,0 +1,80 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Parallax Section Styling */
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    background-image: url('https://via.placeholder.com/1500x1000/ff0000/ffffff?text=Red+Background'); /* Red Background */
+}
+
+#section3 {
+    background-image: url('https://via.placeholder.com/1500x1000/0000ff/ffffff?text=Blue+Background'); /* Blue Background */
+}
+
+/* Content Section Styling */
+.content-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.content-section h2 {
+    font-size: 2.5em;
+    color: #ff0000; /* Red Text */
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Content Styling */
+.content {
+    max-width: 800px;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
